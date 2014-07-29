@@ -1,0 +1,3 @@
+[submodule "lib/antecons"]
+	path = lib/antecons
+	url = https://github.com/antecons/antecons-php.git
