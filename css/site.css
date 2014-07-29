@@ -1,0 +1,15 @@
+body {
+    padding-top: 60px;
+}
+
+.product-list .product {
+    margin: 17px 0;
+}
+
+.cart .product img {
+    height: 70px;
+}
+
+.cart .product td {
+    vertical-align: middle;
+}
