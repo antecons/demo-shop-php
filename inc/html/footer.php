@@ -10,5 +10,16 @@
     });
 })(window.jQuery);
 </script>
+<script src="//api.antecons.net/js/antecons.js"></script>
+<?php if ($productTrackingId) { ?>
+<script>
+Antecons.init({
+    apiKey: '<?= ANTECONS_API_KEY ?>',
+    datasource: '<?= ANTECONS_DATASOURCE ?>',
+    itemID: '<?= $productTrackingId ?>',
+    track: true
+});
+</script>
+<?php } ?>
 </body>
 </html>

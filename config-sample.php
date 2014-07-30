@@ -23,11 +23,15 @@ if (!defined('LIB_PATH'))
 if (!defined('DB_PATH'))
     define('DB_PATH', ABSPATH . 'db/');
 
+// Set Antecons vars.
+define('ANTECONS_API_KEY', 'abc');
+define('ANTECONS_API_SECRET', 'def');
+define('ANTECONS_DATASOURCE', 'test');
+
 // Import the Antecons library.
 require_once(LIB_PATH . 'antecons/lib/antecons.php');
-Antecons\Client::$apiKey = 'abc';
-Antecons\Client::$apiSecret = 'def';
-define('ANTECONS_DATASOURCE', 'test');
+Antecons\Client::$apiKey = ANTECONS_API_KEY;
+Antecons\Client::$apiSecret = ANTECONS_API_SECRET;
 
 // Include all the functions.
 require_once(INCLUDE_PATH . 'functions.php');
