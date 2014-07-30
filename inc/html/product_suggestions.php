@@ -6,7 +6,7 @@
 </div>
 <div class="row suggestions">
     <?php foreach ($suggestions as $product) { ?>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="product product-small text-center">
                 <div class="image">
                     <a href="<?= productUrl($product->id) ?>">

@@ -4,6 +4,7 @@ body {
 
 .product-list .product {
     margin: 17px 0;
+    height: 200px;
 }
 
 .cart .product img {
