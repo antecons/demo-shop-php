@@ -9,13 +9,13 @@
         <div class="col-sm-4">
             <div class="product product-small text-center">
                 <div class="image">
-                    <a href="<?= productUrl($product->id) ?>">
+                    <a href="<?= productUrl($product->id) ?>" data-track="<?= $product->id ?>">
                         <img src="<?= $product->image ?>" class="img-responsive">
                     </a>
                 </div>
                 <div class="title">
                     <h3>
-                    <a href="<?= productUrl($product->id) ?>">
+                    <a href="<?= productUrl($product->id) ?>" data-track="<?= $product->id ?>">
                         <?= $product->name ?>
                     </a>
                     </h3>
