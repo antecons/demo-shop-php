@@ -1,13 +1,12 @@
 Demo Shop
 =========
 
-A simple shop implementation to demonstrate how the [Antecons
-API](https://api.antecons.net) can be integrated with any custom webshop.
+A simple shop implementation to demonstrate how the Antecons
+API can be integrated with any custom webshop.
 
-Live demo
----------
-
-The shop is running at https://demo.antecons.net with a real Antecons API user.
+*** Not Maintained ***
+--------------
+It is probably evident from the old commit history, but this repository is not maintained anymore.
 
 Requirements
 ------------
